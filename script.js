@@ -8,11 +8,6 @@ let distributionChart;
 // Initialize the application
 document.addEventListener('DOMContentLoaded', async function() {
     try {
-        // Simulate loading CSV data
-        // In a real implementation, you would fetch this from your server
-        // fetch('diabetes_data.csv').then(response => response.text())...
-        
-        // For demo purposes, we'll simulate the data loading
         setTimeout(() => {
             initializeApp();
         }, 1000);
